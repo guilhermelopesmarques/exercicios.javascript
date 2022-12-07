@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
-function mostrarNumero(){
-    
-
+function combustivel(){
+    let dinheiro = document.getElementById("resposta").value
+    let combustivel = dinheiro / 5
+    document.getElementById("dinheiro").innerText = combustivel + " litro" + "e seu carro andará: " +combustivel*20+"km"
 }
->>>>>>> ccea24d7e4569f682c95a5901fd641e060f323af
+
